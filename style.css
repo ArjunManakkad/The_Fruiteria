@@ -1,0 +1,26 @@
+.logo {
+    width: 5em;
+}
+
+.modalul {
+    list-style: none;
+}
+
+.modal-a {
+    text-decoration: none;
+}
+
+.navbardiv {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+h5{
+    color:green;
+    
+}
+
+.ulItemList{
+    list-style: none;
+}

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior:smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fruiteria</title>
+    <link rel="icon" href="/img/Fruiteria Logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="navbardiv bg-light">
+            <!-- Navbar Section -->
+            <nav class="navbar navbar-expand-lg navbar-light shadow p-3 bg-body rounded">
+                <div class="container-fluid">
+                    <img src="/img/Fruiteria Logo.png" class="logo" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#GalleryContainer">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Event">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    href="#Contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Home Header -->
+
+
+        <header class="container-fluid" id="Home" style="padding-top: 5em">
+            <div class="position-relative bg-light">
+                <ul
+                    class="ulItemList d-flex flex-wrap align-content-stretch flex-row gap-4 text-success fw-bold justify-content-center">
+                    <li>DRY FRUITS</li>
+                    <li>CHOCOLATE</li>
+                    <li>SPICES</li>
+                    <li>CAKES</li>
+                    <li>HALVA</li>
+                    <li>SWEETS</li>
+                    <li>BAKERY ITEMS</li>
+                </ul>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/img/shopinside2.jpg" class="d-block w-100" alt="Shop Picture">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/img/shopinside3.jpg" class="d-block w-100" alt="Shop Picture">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/img/shopinside1.jpg" class="d-block w-100" alt="Shop Picture">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Home Header -->
+
+        <!-- Google Map And Image Section -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col pt-5">
+                    <!--Google map-->
+                    <div id="map-container-google-3" class="">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.5425104810874!2d76.6964937!3d9.8886948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07c55892ef1b77%3A0x51d9424c1b9dab2f!2sThe%20Fruiteria%20Dry%20Fruits%20and%20choclates!5e0!3m2!1sen!2sin!4v1660233151509!5m2!1sen!2sin"
+                            width="500vw" height="400vh" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col pt-3">
+                    <!--Coffee Day Beverages Image-->
+                    <label for="image" class="coffee fw-bold text-danger fs-4">COFFEE DAY BEVERAGES</label>
+                    <div class="">
+                        <img width="500vw" height="400vh" src="/img/Coffee Day Beverages.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Google Map And Image Section -->
+
+        <!-- Gallery -->
+        <div class="" id="GalleryContainer" style="padding-top: 5em"></div>
+        <h2 class="text-success d-flex justify-content-center bg-light p-3 shadow p-3 mb-5 bg-body rounded">PRODUCT
+            GALLERY</h2>
+        <div class="gallery container-fluid ">
+            <div class="row d-flex justify-content-center gap-4">
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/thefruiteriadry_pr1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ORGANIC COFFEE</h5>
+                        <p class="card-text">
+                            Cent percent natural, Plantonorganic Organic Coffee is a delightful beverage from Kerala,
+                            rich in antioxidants, giving the coffee lovers the much-needed high spirits and epidemic
+                            charisma.
+                            Flavoursome premium coffee beans of finest quality carefully hand-picked by women farmers at
+                            Keezhanthoor near Marayoor are freshly roasted preserving quality and aroma.
+                        </p>
+                    </div>
+                </div>
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/dried-fruits-nuts-collection.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dried fruits and nuts</h5>
+                        <p class="card-text">Dried fruit is fruit from which the majority of the original water content
+                            has been removed either naturally, through sun drying, or through the use of specialized
+                            dryers or dehydrators. Dried fruit has a long tradition of use dating back to the fourth
+                            millennium BC in Mesopotamia, and is prized because of its sweet taste, nutritive value,
+                            and long shelf life. </p>
+                    </div>
+                </div>
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/bounty-chocolate.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bounty chocolate</h5>
+                        <p class="card-text">Bounty is a coconut-filled, chocolate-enrobed candy bar manufactured by
+                            Mars, Incorporated, introduced in 1951 in the United Kingdom and Canada. It is a direct
+                            emulation of the Mounds bar introduced by Peter Paul in 1936, and also copies the milk
+                            chocolate enrobing of Mars' Almond Joy, introduced in 1948. It is no longer sold in the
+                            United States.</p>
+                    </div>
+                </div>
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/thefruiteriadry_pr5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Amul Ice Cream</h5>
+                        <p class="card-text">Amul has always brought newness in its products and the same applies for
+                            its ice creams. Not only has it grown at a phenomenal rate but also it has added a vast
+                            variety of flavours to its ever growing range. Currently it offers a selection of 220
+                            products.</p>
+                    </div>
+                </div>
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/DairyMilk.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dairy Milk Products</h5>
+                        <p class="card-text">Cadbury Dairy Milk is a British brand of milk chocolate manufactured by
+                            Cadbury. It was introduced in the United Kingdom in 1905 and now consists of a number of
+                            products. Every product in the Dairy Milk line is made with exclusively milk chocolate.</p>
+                    </div>
+                </div>
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/thefruiteriadry_pr7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cake</h5>
+                        <p class="card-text">Cake is a flour confection made from flour, sugar, and other ingredients,
+                            and is usually baked. In their oldest forms, cakes were modifications of bread, but cakes
+                            now cover a wide range of preparations.</p>
+                    </div>
+                </div>
+                <!-- sec2-->
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/BRB Potoato.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BRB Chips</h5>
+                        <p class="card-text">The medium hot spiciness of chipotle, its distinctive grilled and smoky
+                            notes now have an added twist of sweetness, giving it a perfectly balanced sweet and spicy
+                            flavour, which won’t have your mouth on fire, but will have you wanting for more. </p>
+                    </div>
+                </div>
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/thefruiteriadry_pr9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Halva</h5>
+                        <p class="card-text">Halva is a type of confectionery originating from Persia and widely spread
+                            throughout the Middle East. The name is used for a broad variety of recipes, generally a
+                            thick paste based on flour or semolina, finely ground seeds or nuts, and sweetened with
+                            sugar or honey.</p>
+                    </div>
+                </div>
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/Tropicana-Fruit-Juice-.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tropicana Fruit Juice</h5>
+                        <p class="card-text">The great thing about Tropicana Pure Premium® is that taste and nutrition
+                            go hand in hand. Vitamin C helps support a healthy immune system – and 100% of your daily
+                            vitamin C is in every glass. So you get what you want and what you love.</p>
+                    </div>
+                </div>
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/Nestle.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nestle</h5>
+                        <p class="card-text">
+                            Nestle unlock the power of food to enhance quality of life for everyone, today and for
+                            generations to come.
+                            <br><br>
+                            Nestlé S.A. is a Swiss multinational food and drink processing conglomerate corporation
+                            headquartered in Vevey, Vaud, Switzerland. It is the largest publicly held food company in
+                            the world, measured by revenue and other metrics, since 2014.
+                        </p>
+                    </div>
+                </div>
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/nestle nan pro.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nestle NAN PRO</h5>
+                        <p class="card-text">
+                            Bag-In-Box format ensures enhanced safety, hygiene and convenience
+                            NAN PRO 1 is a spray dried Infant Formula with DHA ARA for infants from birth when they are
+                            not breastfed
+                            NAN PRO 1 contains DHA- DHA supports babys normal brain development
+                            Contains Whey Protein along with Vitamin A, C, D, Iron and Zinc. Organic : No
+                        </p>
+                    </div>
+                </div>
+                <div class="card mt-3 col-lg-6 mt-lg-0 mt-md-5 about-right-faq align-self" style="width: 18rem;">
+                    <img src="/img/Nestle Quality Street.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nestle Quality Street</h5>
+                        <p class="card-text">Since 1936, the famous Quality Street tin has held a special place in
+                            people's hearts - everyone has their favorite.
+                            Every tin holds 12 delicious varieties, including milk chocolates, dark chocolates, and
+                            toffees. Every colorfully wrapped treat is free from artificial colors, flavors, or
+                            preservatives, and our chocolate is made from sustainably sourced cocoa.
+                            Quality Street is a gift everyone loves, and a permanent fixture at special occasions. Lift
+                            off the lid and get together with your favorites.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Event -->
+
+        <div class="" id="Event" style="padding-top: 5em"></div>
+        <h2 class="text-success d-flex justify-content-center bg-light p-3 shadow p-3 mb-5 bg-body rounded">EVENTS</h2>
+
+        <div class="row m-10 p-3">
+            <div class="col m-20 p-3 container-fluid">
+                <img class="image-fluid" src="/img/Event/Event-pic-2.jpg" width="600" height="auto" alt="Events">
+            </div>
+            <div class="col m-20 p-3 text-wrap">
+                <h5 class="title-small mb-1">Opening Ceremony of Coffee Day Beverages Outlet</h5>
+                <h3 class="title-big">Coffee Day Beverages
+                    <span>Outlet</span>
+                </h3>
+                <p class="mt-sm-4 mt-3">
+
+                <h4>Manufacturing <br> Unmatched quality in every cup</h3>
+
+                    Coffee Day Beverages have made freshness an integral part of the vending machine proposition. This
+                    enables us to
+                    deliver the satisfaction of a freshly brewed cup of beverage. We are proud to have the first
+                    in-house coffee machine design & manufacturing facility in India, started in the year 2002. This has
+                    helped manufacture more than 59115 coffee machines as of today. The machines roll out of a state of
+                    the art ISO 9001: 2015 certified production line nestled in Bengaluru. A dynamic Research and
+                    Development centre is an integral part of the factory which focuses on innovation and technology.
+                    Our portfolio of machines are CE certified.</p>
+            </div>
+        </div>
+
+
+
+        <!-- Contact Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bg-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contact: Sreejith Mullasseriell</h5>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="modalul">
+                            <li> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                </svg> <a href="https://wa.me/919562679782"> Mobile/WhatsApp:+91 9562679782 </a></li>
+                            <li> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                </svg> Email:<a
+                                    href="mailto:sreejithmullasseriell@gmail.com">sreejithmullasseriell@gmail.com</a>
+                            </li>
+                            <li> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg>
+                                <a class="modal-a" href="https://instagram.com/thefruiteriadry?igshid=YmMyMTA2M2Y=">
+                                    Instagram: thefruiteriadry
+
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Google Map -->
+                        <div id="map-container-google-3" class="">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.5425104810874!2d76.6964937!3d9.8886948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07c55892ef1b77%3A0x51d9424c1b9dab2f!2sThe%20Fruiteria%20Dry%20Fruits%20and%20choclates!5e0!3m2!1sen!2sin!4v1660233151509!5m2!1sen!2sin"
+                                width="450vw" height="400vh" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <!-- Google Map -->
+                    </div>
+                    <div class="modal-footer">
+
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+
+
+        <!-- Footer -->
+
+        <footer class="footer text-center">
+            <div class="text-center text-dark p-3" style=" background-color: rgba(0, 0, 0, 0.2)">
+                © 2022 Copyright:
+                <a class="text-dark" href="https://arjunmanakkad.in/" style="text-decoration:none;">Arjun Manakkad</a>
+            </div>
+
+        </footer>
+    </div>
+
+    <script>
+        $('.nav-link').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
