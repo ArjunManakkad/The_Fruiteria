@@ -25,9 +25,6 @@ h5{
     list-style: none;
 }
 
-/* .coffee{
-    display: block;
-    max-width: 100%;
-    height: auto;
-        
-} */
+.card-text{
+    text-align:justify;
+}
